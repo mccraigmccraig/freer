@@ -1,4 +1,6 @@
-%{"bunt": {:hex, :bunt, "0.1.5"},
-  "credo": {:hex, :credo, "0.3.13"},
-  "mix_ctags": {:git, "https://github.com/rgrinberg/mix_ctags.git", "68271100bb511c0a19405e9b7d840431f273c1b2", []},
-  "monad": {:hex, :monad, "1.0.5"}}
+%{
+  "bunt": {:hex, :bunt, "0.2.1", "e2d4792f7bc0ced7583ab54922808919518d0e57ee162901a16a1b6664ef3b14", [:mix], [], "hexpm", "a330bfb4245239787b15005e66ae6845c9cd524a288f0d141c148b02603777a5"},
+  "credo": {:hex, :credo, "0.10.2", "03ad3a1eff79a16664ed42fc2975b5e5d0ce243d69318060c626c34720a49512", [:mix], [{:bunt, "~> 0.2.0", [hex: :bunt, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm", "539596b6774069260d5938aa73042a2f5157e1c0215aa35f5a53d83889546d14"},
+  "jason": {:hex, :jason, "1.4.4", "b9226785a9aa77b6857ca22832cffa5d5011a667207eb2a0ad56adb5db443b8a", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "c5eb0cab91f094599f94d55bc63409236a8ec69a21a67814529e8d5f6cc90b3b"},
+  "mix_ctags": {:git, "https://github.com/rgrinberg/mix_ctags.git", "499d84aedefdd17a46d1aa6997418473cd437641", []},
+}
